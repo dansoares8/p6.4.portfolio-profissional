@@ -380,6 +380,7 @@ form textarea{
 
 
 /* media query - responsividade */
+
 /* extra small (xs): smartphone (portrait) : */
 @media (min-width: 0px) and (max-width: 575px){
     header{
@@ -427,6 +428,8 @@ form textarea{
     }
 
 }
+
+
 /* media screen small (sm): smartphone (Landscape */
 @media (min-width: 576px) and (max-width: 767px){
     header{
@@ -464,6 +467,8 @@ form textarea{
     }
 
 }
+
+
 /* medium (md): tablet */
 @media (min-width: 768px) and (max-width: 991px){
     .menu-hamburger{
@@ -475,10 +480,39 @@ form textarea{
     .nav-responsive, .nav-responsive a{
         display: none;
     }
+
+    .home, .about{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .home-img, .about-img{
+        max-width: 35%;
+    }
+    .home-content, .about-content{
+        width: 50%;
+    }
+    .services-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-box{
+        /* width: 60%; */
+        margin-bottom: 1rem;
+    }
+    .portfolio-container{
+        grid-template-columns: auto auto;
+    }
+    form .input-box input{
+        width: 49%;
+    }
+
+
     header{
         background-color: var(--color-03); /* test */
     }
 }
+
+
 /* large (lg): notebook */
 @media (min-width: 992px) and (max-width: 1199px){
     header{
