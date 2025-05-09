@@ -205,7 +205,8 @@ footer{
     border-image: linear-gradient(225deg, transparent 50%, var(--main-color)) 1;
 }
 
-/* services */
+
+/* ------ services ------ */
 .services h2{
     font-size: 2.2rem;
     margin-bottom: 1rem;
@@ -257,7 +258,7 @@ footer{
 
 
 
-/* portfolio */
+/* portfolio 
 .portfolio{
     background-color: var(--bg-color-02);
 }
@@ -267,7 +268,8 @@ footer{
     text-align: center;
 }
 .portfolio-container{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 1.2rem;
 }
 .portfolio-box{
@@ -322,6 +324,10 @@ footer{
     font-size: 1.2rem;
     color: var(--bg-color-02);
 }
+*/
+
+
+
 
 
 /* contact */
